@@ -20,7 +20,7 @@ my $result = GetOptions("prompt|p=s" => \$prompt,
                         );
 
 sub usage() {
-	print "This script will scan processes for the named process, tell you the pid of the varnish process that\n";
+	print "This script will scan processes for the named process (default varnishd), tell you the pid of the process that\n";
 	print "has the most CPU time, and ask if you want to kill it unless you specified no prompt.\n";
 	
         print "Parameters :\n";
